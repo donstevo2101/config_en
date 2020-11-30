@@ -1,0 +1,216 @@
+{
+  "HorizonLayout": [
+    {
+      "layout": "logo",
+      "showMenu": true,
+      "showSearch": true,
+      "showLogo": true
+    },
+
+    {
+    "layout": "bannerImage",
+    "isSlider": true,
+    "showBackground": true,
+    "upHeight": 300.0,
+    "padding": 20.0,
+    "radius": 20.0,
+    "fontSize": 26.0,
+    "items": [{
+      "category": 24,
+      "background": "https://user-images.githubusercontent.com/1459805/62924786-09b73580-bddb-11e9-94e1-a3bc0c00f35d.png",
+      "image": "https://user-images.githubusercontent.com/52714884/100293951-30d15080-2fa7-11eb-9f21-c0b3bd476236.png"
+    }, {
+      "category": 25,
+      "background": "https://user-images.githubusercontent.com/52714884/100451566-73934580-30d9-11eb-979a-1a464e70dc4b.png",
+      "image": "https://user-images.githubusercontent.com/52714884/100145901-d8bd2000-2eba-11eb-83b1-7e9d8c75d508.png"
+    }, {
+      "category": 26,
+      "background": "https://user-images.githubusercontent.com/52714884/99961508-63652880-2db0-11eb-9162-6bda974f51b3.png",
+      "image": "https://user-images.githubusercontent.com/52714884/99961675-a0c9b600-2db0-11eb-8410-13af46930b6a.png"
+    }, {
+      "category": 27,
+      "background": "https://user-images.githubusercontent.com/52714884/99962311-cc996b80-2db1-11eb-946e-3a754c1be708.png",
+      "image": "https://user-images.githubusercontent.com/52714884/99958554-67427c00-2dab-11eb-9b84-7f07e19e038a.png"
+    }]
+  }, {
+    "layout": "bannerImage",
+    "items": [{
+      "category": 28,
+      "image": "https://user-images.githubusercontent.com/52714884/99963381-85ac7580-2db3-11eb-8796-3ac5c92c585b.png",
+      "padding": 15.0,
+      "radius": 20.0
+    }]
+  }, {
+    "layout": "bannerImage",
+    "items": [{
+      "category": 29,
+      "image": "https://user-images.githubusercontent.com/52714884/99962057-539a1400-2db1-11eb-8b58-cccdb16de633.png",
+      "padding": 15.0,
+      "radius": 20.0
+    }]
+  },  {
+    "layout": "category",
+    "type": "icon",
+    "wrap": true,
+    "size": 1.0,
+    "radius": 50.0,
+    "noBackground": true,
+    "columns": 4,
+    "padding": 8.0,
+    "items": [{
+      "category": 143,
+      "image": "assets/icons/categories/cate1.png",
+      "colors": [
+        "#3CC2BF",
+        "#3CC2BF"
+      ],
+      "originalColor": true
+    }, {
+      "category": 628,
+      "image": "assets/icons/categories/cate2.png",
+      "colors": [
+        "#3E6AB5",
+        "#3E6AB5"
+      ],
+      "originalColor": true
+    }, {
+      "category": 334,
+      "image": "assets/icons/categories/cate3.png",
+      "colors": [
+        "#53A2CC",
+        "#53A2CC"
+      ],
+      "originalColor": true
+    }, {
+      "category": 626,
+      "image": "assets/icons/categories/cate4.png",
+      "colors": [
+        "#53688A",
+        "#53688A"
+      ],
+      "originalColor": true
+    }, {
+      "category": 420,
+      "image": "assets/icons/categories/cate5.png",
+      "colors": [
+        "#43506A",
+        "#43506A"
+      ],
+      "originalColor": true
+    }, {
+      "category": 334,
+      "image": "assets/icons/categories/cate6.png",
+      "colors": [
+        "#12B58C",
+        "#12B58C"
+      ],
+      "originalColor": true
+    }, {
+      "category": 627,
+      "image": "assets/icons/categories/cate7.png",
+      "colors": [
+        "#3CC2BF",
+        "#3CC2BF"
+      ],
+      "originalColor": true
+    }, {
+      "category": 131,
+      "image": "assets/icons/categories/cate8.png",
+      "colors": [
+        "#3E6AB5",
+        "#3E6AB5"
+      ],
+      "originalColor": true
+    }, {
+      "category": 600,
+      "image": "assets/icons/categories/cate9.png",
+      "colors": [
+        "#12B58C",
+        "#12B58C"
+      ],
+      "originalColor": true
+    },
+      {
+      "category": 629,
+      "image": "assets/icons/categories/cate10.png",
+      "colors": [
+        "#3CC2BF",
+        "#3CC2BF"
+      ],
+      "originalColor": true
+    },
+      {
+      "category": 260,
+      "image": "assets/icons/categories/cate11.png",
+      "colors": [
+        "#3E6AB5",
+        "#3E6AB5"
+      ],
+      "originalColor": true
+    },
+      {
+      "category": 407,
+      "image": "assets/icons/categories/cate12.png",
+      "colors": [
+        "#3E6AB5",
+        "#3E6AB5"
+      ],
+      "originalColor": true
+    }
+
+    ]
+  }, {
+    "name": "Recently Viewed",
+    "layout": "recentView"
+  }, {
+    "name": "Latest Products",
+    "image": "",
+    "layout": "twoColumn",
+    "isSnapping": true,
+    "category": 260
+  }, {
+    "name": "Our Blog Posts",
+    "layout": "blog"
+  }, {
+    "name": "New Collections",
+    "layout": "staggered",
+    "limit": 20,
+    "category": 128
+  }],
+
+  "Setting": {
+    "MainColor": "#3FC1BE",
+    "ProductListLayout": "list"
+  },
+  "TabBar": [{
+    "layout": "home",
+    "label": "Home",
+
+    "icon": "assets/icons/tabs/icon-home.png"
+  }, {
+    "layout": "vendors",
+    "label": "Stores",
+    "categoryLayout": "sideMenuWithSub",
+    "icon": "assets/icons/tabs/icon-category.png",
+    "showChat": true
+  },
+
+    {
+      "layout": "search",
+      "label": "Search",
+      "showChat": true,
+      "icon": "assets/icons/tabs/icon-search.png"
+    }, {
+      "layout": "cart",
+      "label": "Cart",
+      "showChat": true,
+
+      "icon": "assets/icons/tabs/icon-cart2.png"
+    }, {
+      "layout": "profile",
+      "label": "Profile",
+      "showChat": true,
+      "icon": "assets/icons/tabs/icon-user.png"
+    }
+  ]
+}
